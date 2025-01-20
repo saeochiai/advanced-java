@@ -10,7 +10,7 @@ public class Ex09 {
 // ⽣成したオブジェクトのplusXxxx()メソッドを利⽤して1年2か⽉3⽇4時間5分6秒後の
 // localDateTimeオブジェクトを取得してください
 
-        LocalDateTime localDateTime = LocalDateTime.of(2020, 1, 0, 0, 0, )
+        LocalDateTime localDateTime = LocalDateTime.of(2020, 1, 0, 0, 0);
 
         localDateTime = localDateTime.plusYears(1);
         localDateTime = localDateTime.plusMonths(2);
@@ -19,7 +19,7 @@ public class Ex09 {
         localDateTime = localDateTime.plusMinutes(5);
         localDateTime = localDateTime.plusSeconds(6);
         
-        System.out.println("進めた後︓" + localDateTime);
+        System.out.println(localDateTime);
     }
 
 }
